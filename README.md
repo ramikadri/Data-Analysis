@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @ramikadri
-- 👀 I’m interested in data analysis
+- 👀 I’m interested in Business analysis using IT
 - 🌱 I’m currently learning machine learning
-- 💞️ I’m looking to collaborate on big data
+- 💞️ I’m looking to collaborate on big data and blockchain
+- ⚽ I'm a footballer too! I love team work goals AKA Tactics
 - 📫 How to reach me kadrir@brevard.edu
 
 <!---
