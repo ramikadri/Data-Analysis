@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choixmed"
+    tools:context=".Main4Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:fontFamily="casual"
+            android:text="Vous cherchez quel type de centre de soins ?"
+            android:textAlignment="center"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="60dip"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+
+                    android:text="PHARMACIE "
+                    android:textColor="#424242"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="80dp"
+
+                    android:background="@drawable/pharma" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:layout_marginTop="7dip"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="205dp"
+                    android:layout_height="80dip"
+                    android:text="CENTRE PUBLIC"
+                    android:textColor="#424242"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="98dp"
+                    android:layout_height="80dip"
+                    android:background="@drawable/lhopital" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:layout_marginTop="7dip">
+
+                <RadioButton
+                    android:layout_width="200dip"
+                    android:layout_height="80dip"
+                    android:textStyle="bold"
+                    android:textSize="20dip"
+                    android:textColor="#424242"
+                    android:text="CENTRE PRIVE"/>
+
+                <ImageView
+                    android:layout_width="110dip"
+                    android:layout_height="80dip"
+
+                    android:background="@drawable/med" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dip"
+                android:text="TOUT "
+                android:textColor="#424242"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dip"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/custom_btn"
+                android:text="Retour"
+                android:textColor="#494D4E"/>
+            <Button
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/custom_btn"
+                android:text="Valider"
+                android:textColor="#494D4E"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
